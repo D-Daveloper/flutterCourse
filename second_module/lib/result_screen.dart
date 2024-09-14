@@ -60,11 +60,7 @@ class ResultScreen extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Quiz(),maintainState: false),
-                  
-                );
+                startQuiz();
               },
               style: ButtonStyle(
                 foregroundColor: WidgetStateProperty.resolveWith((states) {
