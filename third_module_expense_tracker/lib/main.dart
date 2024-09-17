@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:third_module_expense_tracker/widgets/expenses.dart';
+// import 'package:flutter/services.dart';
 
 void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await SystemChrome.setPreferredOrientations(
+  //   [DeviceOrientation.portraitUp],
+  // ).then((fn) {
+  // });
   runApp(const MyApp());
 }
 
